@@ -8,6 +8,9 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Copy the service-account-key.json file to the container
+COPY service-account-key.json . 
+
 # Copy the Flask app code to the container
 COPY app.py .
 
