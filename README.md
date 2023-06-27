@@ -1,10 +1,10 @@
-# Simple API for retrieving secrets from GoogleSecret Manager.
+# Simple API to retrieve secrets from Google Secret Manager.
 
 A simple Flask application for retrieving secrets from Google Cloud Secret Manager.
 
 ## Table of Contents
 
-- [Simple API for retrieving secrets from GoogleSecret Manager.](#simple-api-for-retrieving-secrets-from-googlesecret-manager)
+- [Simple API to retrieve secrets from Google Secret Manager.](#simple-api-to-retrieve-secrets-from-google-secret-manager)
   - [Table of Contents](#table-of-contents)
   - [Description](#description)
   - [Prerequisites](#prerequisites)
