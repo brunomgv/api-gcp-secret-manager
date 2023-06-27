@@ -52,7 +52,7 @@ The Flask application will start running on http://localhost:5000.
 Use an HTTP client (e.g., cURL, Postman) to send a GET request to the /get-secret endpoint with the secret_id query parameter set to the ID of the secret you want to retrieve. For example:
 
 ```shell
-GET http://localhost:5000/get-secret?secret_id=my-secret
+ curl "http://localhost:5000/get-secret?secret_id=my_secret"
 ```
 
 The application will return the secret value if it exists.
